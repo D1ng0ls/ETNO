@@ -1,0 +1,15 @@
+:root {
+    --color-darkbg: #31333b;
+    --color-lightbg: #34353a;
+    --color-lightred: #ff6b6b;
+    --color-white: #f9f9f9;
+    /* colocar cores padrão */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
