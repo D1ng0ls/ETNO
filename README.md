@@ -1,6 +1,10 @@
 # Projeto ETNO
 
-Uma breve descrição sobre o que esse projeto faz e para quem ele é
+Bem-vindo ao repositório oficial da Comissão ETNO Birigui do IFSP - Campus Birigui. Este repositório abriga os recursos, materiais e informações relacionadas às nossas iniciativas de combate ao racismo e promoção da diversidade.
+
+A Comissão ETNO Birigui é uma equipe multidisciplinar formada por docentes, discentes, técnicos administrativos e membros da comunidade externa, dedicada ao desenvolvimento de ações antirracismo no campus Birigui e em parceria com a comunidade local.
+
+Nosso principal objetivo é elevar a consciência sobre questões raciais e promover a inclusão por meio da educação, conscientização e engajamento da comunidade.
 
 
 ## Autores
