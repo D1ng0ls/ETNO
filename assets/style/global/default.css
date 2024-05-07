@@ -1,3 +1,5 @@
+@import url(reset.css);
+
 :root {
     --color-darkbg: #31333b;
     --color-lightbg: #34353a;
@@ -13,3 +15,7 @@ html {
 body {
     font-family: "Roboto", sans-serif;
 }
+
+/* ESSA BOSTA DE PAGINA VAI FICAR EM TODOS OS HTML */
+/* PORTANTOOOO IMPORTEM ELA PARA CADA CSS DA PAGINA QUE ESTIVEM DESENVOLVENDO */
+/* VAMOS EVITAR MUITOS LINKS NO HEAD DO HTML */
