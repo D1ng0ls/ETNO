@@ -1,0 +1,6 @@
+@import url(../../global/default.css);
+
+header {
+    background-color: transparent;
+    color: red;
+}

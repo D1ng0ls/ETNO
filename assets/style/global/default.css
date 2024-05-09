@@ -21,7 +21,7 @@
 
     /* FONTES */
     /* PADRONIZAÇÃO */
-    font-family: "Poppins", sans-serif;
+    --font-poppins: "Poppins", sans-serif;
     font-size: 16px;
     /* TAMANHO DA FONTE */
     --font-size-h1: 2.25rem;
@@ -55,6 +55,7 @@ h3 {
 }
 
 body {
+    font-family: var( --font-poppins);
     font-size: var(--font-size-body);
     color: var(--color-body);
 }
@@ -67,6 +68,30 @@ body {
 .detail-text {
     font-size: var(--font-size-detail);
     color: var(--color-details);
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+nav {
+    display: flex;
+    align-items: center
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul>li {
+
 }
 
 /* ESSA BOSTA DE PAGINA VAI FICAR EM TODOS OS HTML */
