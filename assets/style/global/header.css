@@ -1,0 +1,31 @@
+header {
+    width: 100%;
+    position: fixed;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-logo img {
+    width: 80px;
+    height: 80px;
+    background-color: var(--color-white);
+    border-radius: 50%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+    font-weight: 500;
+}
+
+nav ul>li {
+    margin: 0 30px;
+}
