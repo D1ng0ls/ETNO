@@ -5,6 +5,72 @@ header {
     background-color: var(--color-red);
 }
 
+main {
+    padding-top: 200px;
+    width: 80%;
+    margin: auto;
+}
+
+h1, h2{
+    font-weight: 700;
+    letter-spacing: 4px;
+    padding-bottom: 50px;
+}
+
+h1, h2, h3, p {
+    color: var(--color-brown);
+    line-height: 1.8rem;
+}
+
+h1::before, h2::before {
+    content: "";
+    width: 170px;
+    height: 4px;
+    background-color: var(--color-red);
+    position: absolute;
+    transform: translateY(32px);
+    margin-left: 0;
+}
+
+h1::before {
+    transform: translateY(40px);
+}
+
 .container-about {
-    padding-top: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-about {
+    width: 50%;
+}
+
+.text-about p {
+    width: 90%;
+}
+
+.img-about {
+    width: 50%;
+}
+    
+.img-about img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.missao-about {
+
+    padding: 50px 30px;
+    margin: 70px 0;
+    background-color: var(--color-yellow);
+    border-radius: 8px;
+}
+
+.missao-about b {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    display: block;
+    text-align: center;
 }
