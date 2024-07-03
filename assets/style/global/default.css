@@ -71,6 +71,11 @@ body {
     color: var(--color-details);
 }
 
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
 /* ESSA BOSTA DE PAGINA VAI FICAR EM TODOS OS HTML */
 /* PORTANTOOOO IMPORTEM ELA PARA CADA CSS DA PAGINA QUE ESTIVEM DESENVOLVENDO */
 /* VAMOS EVITAR MUITOS LINKS NO HEAD DO HTML */
