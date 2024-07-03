@@ -72,13 +72,13 @@ h1::before {
 /*missao*/
 
 .missao-about {
-    padding: 50px 30px;
     margin: 70px auto;
     background-color: var(--color-yellow);
     border-radius: 8px;
 }
 
 .missao-about b {
+    padding: 50px 40px;
     font-size: 1.5rem;
     line-height: 2rem;
     display: block;
@@ -89,6 +89,10 @@ h1::before {
 
 .container-compromissos {
     margin-bottom: 50px;
+}
+
+.container-compromissos h2::before {
+    width: 234px;
 }
 
 .itens-compromissos ul {
@@ -121,6 +125,10 @@ h1::before {
     margin-left: 10%;
 }
 
+.container-lab h2::before {
+    width: 142px;
+}
+
 .conteudo-lab {
     display: flex;
     align-items: center;
@@ -130,6 +138,7 @@ h1::before {
 
 .img-lab {
     position: absolute;
+    z-index: -1;
 }
 
 .img-lab img{
@@ -142,8 +151,15 @@ h1::before {
     background-color: var(--color-red);
     padding: 40px 10%;
     padding-left: 35%;
+    z-index: -2;
 }
 
 .text-lab p {
     color: var(--color-white);
+}
+
+/*representantes*/
+
+.container-representantes h2::before {
+    width: 249px;
 }
