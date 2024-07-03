@@ -1,17 +1,24 @@
 @import url(../../global/default.css);
 
+/*header*/
+
 header {
     color: var(--color-white);
     background-color: var(--color-red);
 }
 
+/*default*/
+
 main {
     padding-top: 200px;
+}
+
+section {
     width: 80%;
     margin: auto;
 }
 
-h1, h2{
+h1, h2 {
     font-weight: 700;
     letter-spacing: 4px;
     padding-bottom: 50px;
@@ -35,6 +42,8 @@ h1::before, h2::before {
 h1::before {
     transform: translateY(40px);
 }
+
+/*sobre*/
 
 .container-about {
     display: flex;
@@ -60,10 +69,11 @@ h1::before {
     border-radius: 8px;
 }
 
-.missao-about {
+/*missao*/
 
+.missao-about {
     padding: 50px 30px;
-    margin: 70px 0;
+    margin: 70px auto;
     background-color: var(--color-yellow);
     border-radius: 8px;
 }
@@ -75,6 +85,65 @@ h1::before {
     text-align: center;
 }
 
+/*compromissos*/
+
+.container-compromissos {
+    margin-bottom: 50px;
+}
+
 .itens-compromissos ul {
-    list-style: url(../../../media/pages/sobre/topic-logo.png);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: auto;
+}
+
+.itens-compromissos ul li {
+    background: url(../../../media/pages/sobre/topic-logo.png) no-repeat center left;
+    padding-left: 72px;
+    margin: 50px 0;
+}
+
+.itens-compromissos ul li::marker{
+    margin-top: auto;
+}
+
+.itens-compromissos ul li h3 {
+    font-weight: 600;
+}
+
+/*lab etno*/
+
+.container-lab {
+    width: 100%;
+}
+
+.container-lab h2 {
+    margin-left: 10%;
+}
+
+.conteudo-lab {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 150px 0 200px;
+}
+
+.img-lab {
+    position: absolute;
+}
+
+.img-lab img{
+    width: 60%;
+    margin-left: 50%;
+    border-radius: 4px;
+}
+
+.text-lab {
+    background-color: var(--color-red);
+    padding: 40px 10%;
+    padding-left: 35%;
+}
+
+.text-lab p {
+    color: var(--color-white);
 }
