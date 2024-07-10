@@ -163,3 +163,39 @@ h1::before {
 .container-representantes h2::before {
     width: 249px;
 }
+
+.container-representantes {
+    margin-bottom: 200px;
+}
+
+.container-representantes h3{
+    text-align: center;
+    margin: 100px 0;
+}
+
+.fotos-representantes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 70px;
+}
+
+.repre-dev {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 128px;
+    
+}
+
+.repre-dev img {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    border: 3px solid var(--color-red);
+}
+
+.repre-dev p {
+    text-align: center;
+}
