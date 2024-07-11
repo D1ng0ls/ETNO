@@ -9,7 +9,7 @@ function abre(id) {
         }
     });
 
-    const todasAsQuestoes = document.querySelectorAll('.faq-question');
+    const todasAsQuestoes = document.querySelectorAll('.title-quest');
     todasAsQuestoes.forEach(item => {
         if (item.id !== 'quest' + id) {
             item.classList.remove('gira');
