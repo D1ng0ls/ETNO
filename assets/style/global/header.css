@@ -6,6 +6,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     transition: box-shadow 0.1s ease-in;
+    z-index: 1;
 }
 
 .fixed {
