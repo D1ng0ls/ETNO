@@ -14,7 +14,7 @@
     --color-yellow: #F2A922;
     --color-white: #FFFAFA;
     /* CORES DOS TEXTOS */
-    --color-h1: #000000;
+    --color-h1: #000000;    
     --color-h2: #333333;
     --color-h3: #666666;
     --color-body: #333333;
@@ -76,7 +76,3 @@ a {
     color: currentColor;
     text-decoration: none;
 }
-
-/* ESSA BOSTA DE PAGINA VAI FICAR EM TODOS OS HTML */
-/* PORTANTOOOO IMPORTEM ELA PARA CADA CSS DA PAGINA QUE ESTIVEM DESENVOLVENDO */
-/* VAMOS EVITAR MUITOS LINKS NO HEAD DO HTML */

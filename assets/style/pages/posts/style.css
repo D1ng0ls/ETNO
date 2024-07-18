@@ -1,8 +1,13 @@
 @import url(../../global/default.css);
 
-/*header*/
+/* header */
 
-/* header {
-    color: var(--color-white);
-    background-color: var(--color-red);
-} */
+header {
+    color: var(--color-brown);
+    background-color: var(--color-lightorange);
+}
+
+/* main */
+main.main-content {
+    padding-top: 200px;
+}
