@@ -9,6 +9,7 @@
 </head>
 <script src="assets/script/global/includes.js"></script>
 <script src="assets/script/global/header.js"></script>
+<script src="assets/script/pages/index/script.js"></script>
 <body>
     <header id="header"></header>
     <main>
@@ -30,7 +31,7 @@
                 <div class="noticias-container">
                     <div class="noticia-recente">
                         <div class="noticia-texto">
-                            <b>Notícias</b>
+                            <div><b>Notícias</b></div>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, veritatis?</p>
                             <span>17/07/2024</span>
                         </div>
@@ -38,28 +39,28 @@
                     <div class="noticias-diversas">
                         <div class="noticia not1">
                             <div class="noticia-texto">
-                                <b>Notícias</b>
+                                <div><b>Notícias</b></div>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, veritatis?</p>
                                 <span>17/07/2024</span>
                             </div>
                         </div>
                         <div class="noticia not2">
                             <div class="noticia-texto">
-                                <b>Notícias</b>
+                               <div><b>Notícias</b></div>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, veritatis?</p>
                                 <span>17/07/2024</span>
                             </div>
                         </div>
                         <div class="noticia not3">
                             <div class="noticia-texto">
-                                <b>Notícias</b>
+                               <div><b>Notícias</b></div>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, veritatis?</p>
                                 <span>17/07/2024</span>
                             </div>
                         </div>
                         <div class="noticia not4">
                             <div class="noticia-texto">
-                                <b>Notícias</b>
+                               <div><b>Notícias</b></div>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, veritatis?</p>
                                 <span>17/07/2024</span>
                             </div>
@@ -67,8 +68,8 @@
                     </div>
                 </div>
             </article>
-            <div class="noticias-botao">
-                <button class="btn-link">Mais Notícias</button>
+            <div class="noticias-botao botao">
+                <button class="btn-link bt-not">Mais Notícias</button>
             </div>
         </section>
         <section class="sect eventos">
@@ -78,10 +79,10 @@
             <article class="art eventos-conteudo">
                 <div class="eventos-container">
                     <div class="evento-recente">
-                        <img src="" alt="">
+                        <img src="assets/media/pages/index/home-eventos-img.png" id="img-event" alt="">
                     </div>
-                    <div class="eventos-diversas">
-                        <div class="evento eve1">
+                    <div class="eventos-diversos">
+                        <div class="evento eve1 selecionado" id="eve1" onclick="seleciona(1)">
                             <div class="data-evento">
                                 <p>21<br>NOV</p>
                             </div>
@@ -90,21 +91,31 @@
                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur quam sit architecto!</p>
                             </div>
                         </div>
-                        <div class="evento eve2">
+                        <div class="evento eve2" id="eve2" onclick="seleciona(2)">
                             <div class="data-evento">
-                                <p>21<br>NOV</p>
+                                <p>18<br>DEZ</p>
                             </div>
                             <div class="texto-evento">
                                 <h3>Festival indígena Moyãmu</h3>
                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur quam sit architecto!</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="eventos-botao">
-                        <button class="btn-link">Mais Eventos</button>
                     </div>
                 </div>
             </article>
+            <div class="eventos-botao botao">
+                <button class="btn-link bt-eve">Mais Eventos</button>
+            </div>
+        </section><section class="sect posts">
+            <div class="title posts-titulo">
+                <h2>Posts</h2>
+            </div>
+            <article class="art posts-conteudo">
+                
+            </article>
+            <div class="posts-botao botao">
+                <button class="btn-link bt-pos">Mais Postagens</button>
+            </div>
         </section>
     </main>
     <footer id="footer"></footer>
