@@ -41,11 +41,12 @@ section {
 
 .title {
     border-bottom: 3px solid;
-}
-
-.title {
     width: 100%;
     display: flex;
+}
+
+.title h2 {
+    color: var(--color-white);
 }
 
 .botao {
@@ -84,7 +85,6 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    animation: bg 40s infinite;
 }
 
 .home h1 {
@@ -109,18 +109,6 @@ section {
     margin: 70px auto;
     bottom: 0;
     animation: indica 2s infinite;
-}
-
-@keyframes bg {
-    0% {
-        background: url(../../../media/pages/index/banner_1.png) no-repeat center;
-    } 25% {
-        background: url(../../../media/pages/index/banner_2.png) no-repeat center;
-    } 75% {
-        background: url(../../../media/pages/index/banner_3.png) no-repeat center;
-    } 100% {
-        background: url(../../../media/pages/index/banner_4.png) no-repeat center;
-    }
 }
 
 @keyframes indica {
@@ -351,11 +339,67 @@ section {
     background-color: var(--color-lightorange);
 }
 
-.posts-container {
+.posts-conteudo {
     margin: 100px auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    gap: 3%;
+}
+
+.post {
+    width: 90%;
+    border-radius: 20px;
+    flex: 1 1 1;
+    cursor: pointer;
+}
+
+.post:hover .text-post  {
+    border-color: var(--color-lightorange);
+}
+
+.img-post, .img-post img {
+    width: 100%;
+}
+
+.img-post img {
+    height: 100%;
+    vertical-align: bottom;
+    
+}
+
+.text-post {
+    padding: 30px 20px 40px;
+    border-radius: 20px;
+    border: 2px solid var(--color-brown);
+    border-top: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    flex: 1 1 0px;
+}
+
+.text-post p {
+    color: var(--color-brown);
+    font-weight: 600;
+    letter-spacing: 3px;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.info-text-post {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    font-size: 0.9rem;
+    color: var(--color-brown);
+    font-weight: 600;
+}
+
+.info-text-post span {
+    background-color: var(--color-lightorange);
+    padding: 5px 7px;
+    border-radius: 4px;
 }
 
 .bt-pos {
@@ -365,4 +409,49 @@ section {
 .bt-pos:hover {
     background-color: var(--color-lightorange);
     border-color: var(--color-lightorange);
+}
+
+/*sobre*/
+.sobre .title {
+    border-color: var(--color-red);
+}
+
+.sobre .title h2 {
+    background-color: var(--color-red);
+}
+
+.sobre-conteudo {
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.texto-sobre {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    color: var(--color-brown);
+}
+
+.texto-sobre span {
+    text-decoration: underline;
+    text-decoration-color: var(--color-brown);
+    background-color: #dbdbdb;
+    padding: 20px 10px;
+    border-radius: 20px;
+}
+
+.bt-sob {
+    color: var(--color-red);
+}
+
+.bt-sob:hover {
+    background-color: var(--color-red);
+    border-color: var(--color-red);
 }
