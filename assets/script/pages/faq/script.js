@@ -1,3 +1,4 @@
+/* abre as perguntas */
 function abre(id) {
     const resp = document.getElementById("text" + id);
     const quest = document.getElementById("quest" + id);
@@ -19,3 +20,8 @@ function abre(id) {
     resp.classList.toggle("aberto");
     quest.classList.toggle("gira");
 }
+
+/* abre a pergunta que vem por link */
+var params = window.location.href.split('#quest');
+var id = params[1].toString();
+abre(id);
