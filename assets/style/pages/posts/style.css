@@ -50,7 +50,7 @@ div.social-media-buttons {
 }
 
 div.facebook-button {
-    background-color: var(--color-lightorange);
+    background-color: var(--color-yellow);
     color: var(--color-brown);
     cursor: pointer;
 }
@@ -74,8 +74,16 @@ section.last-posts-content {
     border-radius: 10px;
     margin-top: 25px;
     font-weight: bold;
+}
+
+section.last-posts-content span {
     font-size: 20px;
 }
+
+section.last-posts-content svg {
+    width: 18px;
+}
+
 
 section.last-posts-content img {
     width: 28px;
@@ -84,6 +92,20 @@ section.last-posts-content img {
 section.facebook-posts {
     background-color: red;
     margin-top: 80px;
+}
+
+section.facebook-posts p.facebook-text-post {
+    font-size: 23px;
+    text-align: center;
+}
+
+hr {
+    width: 90%;
+    height: 1.5px;
+    background-color: var(--color-yellow);
+    outline: none;
+    border: none;
+    margin-bottom: 4%;
 }
 
 div.facebook-cards {
