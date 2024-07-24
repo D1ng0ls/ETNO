@@ -435,30 +435,29 @@ section {
     margin: auto;
     text-align: center;
     line-height: 2rem;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 20px;
     color: var(--color-brown);
 }
 
 .citacao {
-    background-color: #dbdbdb;
+    background-color: var(--color-red);
     padding: 20px 10px;
     border-radius: 20px;
 }
 
 .citacao p {
-    text-decoration: underline;
-    text-decoration-color: var(--color-brown);
+    color: var(--color-white);
     margin: 0 20px;
 }
 
 #citado {
     text-decoration: none;
     text-align: right;
-    margin: 20px 20px 0;
-    font-size: 1.25rem;
+    margin: 10px 20px 0;
+    font-size: 1rem;
 }
 
 .bt-sob {
