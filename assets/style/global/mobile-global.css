@@ -1,0 +1,27 @@
+/* header */
+header .menu {
+    display: none;
+}
+
+@media only screen and (max-width: 1025px) {
+   
+}
+
+@media only screen and (max-width: 768px) {
+    header nav {
+        display: none;
+    }
+    header .menu {
+        display: block;
+        margin: auto 20px;
+        cursor: pointer;
+    }
+    header .menu img {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    
+}

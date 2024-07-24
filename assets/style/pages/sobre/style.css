@@ -78,12 +78,22 @@ h1::before {
 }
 
 .missao-about b {
-    padding: 50px 40px;
+    padding: 30px 20px 10px;
     font-size: 1.5rem;
     line-height: 2rem;
     display: block;
     text-align: center;
 }
+
+.missao-about i {
+    display: block;
+    text-align: right;
+    margin: 20px 20px 0;
+    font-size: 1.25rem;
+    padding: 10px 20px 30px;
+}
+
+
 
 /*compromissos*/
 
@@ -171,6 +181,8 @@ h1::before {
 .container-representantes h3{
     text-align: center;
     margin: 100px 0;
+    font-size: 1.5rem;
+
 }
 
 .fotos-representantes {
@@ -193,7 +205,7 @@ h1::before {
     width: 128px;
     height: 128px;
     border-radius: 50%;
-    border: 3px solid var(--color-red);
+    /* border: 3px solid var(--color-red); */
 }
 
 .repre-dev p {
