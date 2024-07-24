@@ -1,8 +1,177 @@
 @import url(../../global/default.css);
 
-/*header*/
+header {
+    background-color: #7ac144;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
-/* header {
-    color: var(--color-white);
-    background-color: var(--color-red);
-} */
+header .logo {
+    margin-left: 20px;
+}
+
+header .logo img {
+    height: 40px;
+}
+
+header nav {
+    flex: 1;
+    text-align: right;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end; 
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #0f0e0e;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header nav ul li.right {
+    margin-left: right;
+    text-align: right;
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+
+.search-bar {
+    display: flex;
+}
+
+.search-bar input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #7ac144;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.filter {
+    display: flex;
+    align-items: center;
+}
+
+.filter label {
+    margin-right: 10px;
+}
+
+.filter select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.news-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.news-item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    width: 60%;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.news-item img {
+    width: 20%; 
+    height: auto;
+    object-fit: cover; 
+    float: left; 
+    margin-left: 20px; 
+}
+
+.news-content {
+    padding: 20px;
+    text-align: left;
+    flex: 1;
+}
+
+.news-content p {
+    margin: 0 0 10px;
+}
+
+.news-content a {
+    background-color: #7ac144;
+    color: #fff;
+    padding: 8px 15px;
+    text-decoration: none;
+}
+
+.pagination {
+    margin: 20px 0;
+}
+
+.pagination a {
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+.pagination a.active {
+    background-color: #7ac144;
+    color: #fff;
+}
+
+footer {
+    background-color: #ffc107;
+    padding: 10px 0;
+    text-align: center;
+    color: #333;
+}
+
+footer p {
+    margin: 0;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin: 0 5px;
+}
