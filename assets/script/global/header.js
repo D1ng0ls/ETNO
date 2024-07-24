@@ -11,3 +11,10 @@ function myFunction() {
         document.getElementById("header").className = "";
     }
 }
+
+//hamburguer menu
+
+function burgermenu() {
+    document.getElementById('header').classList.toggle("abre-menu");
+    document.getElementById('img-header').src = "assets/media/global/x.svg";
+}
