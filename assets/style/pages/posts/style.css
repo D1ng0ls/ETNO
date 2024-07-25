@@ -90,25 +90,73 @@ section.last-posts-content img {
 }
 
 section.facebook-posts {
-    background-color: red;
     margin-top: 80px;
+    width: 100%;
 }
 
 section.facebook-posts p.facebook-text-post {
-    font-size: 23px;
+    font-size: 25px;
     text-align: center;
+    color: var(--color-brown);
+    font-weight: bold;
 }
 
 hr {
     width: 90%;
-    height: 1.5px;
+    height: 3px;
     background-color: var(--color-yellow);
     outline: none;
     border: none;
-    margin-bottom: 4%;
+    margin-bottom: 3%;
 }
 
 div.facebook-cards {
     display: flex;
+    justify-content: center;
+    gap: 30px;
     flex-wrap: wrap;
+    width: 100%;
 }
+
+.cards {
+    display: inline;
+    width: 380px;
+    height: 470px;
+    border-radius: 16px;
+    border: black 1px solid;
+    padding: 10px;
+}
+
+.card-img img {
+    width: 380px;
+}
+
+.card-desc {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-desc-card {
+
+}
+
+.btn-facebook-card {
+    background-color: var(--color-lightorange);
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.dias-card {
+    padding: 8px;
+}
+
+.card-desc-img {
+    padding: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.1px;
+}
+
+
