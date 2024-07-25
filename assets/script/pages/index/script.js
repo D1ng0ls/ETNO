@@ -7,16 +7,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
         switch (bgnum) {
             case 0:
-                home.style.background = "url('../../assets/media/pages/index/banner_1.png') no-repeat center";
+                home.style.background = "url('assets/media/pages/index/banner_1.png') no-repeat center";
                 break;
             case 1:
-                home.style.background = "url('../../assets/media/pages/index/banner_2.png') no-repeat center";
+                home.style.background = "url('assets/media/pages/index/banner_2.png') no-repeat center";
                 break;
             case 2:
-                home.style.background = "url('../../assets/media/pages/index/banner_3.png') no-repeat center";
+                home.style.background = "url('assets/media/pages/index/banner_3.png') no-repeat center";
                 break;
             case 3:
-                home.style.background = "url('../../assets/media/pages/index/banner_4.png') no-repeat center";
+                home.style.background = "url('assets/media/pages/index/banner_4.png') no-repeat center";
                 break;   
         }
         home.style.backgroundSize = "cover";

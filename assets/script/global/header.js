@@ -10,6 +10,10 @@ function myFunction() {
     } else {
         document.getElementById("header").className = "";
     }
+
+    if(document.getElementById('header').clientHeight < 100){
+        document.getElementById('img-header').src = "assets/media/global/list.svg";
+    }
 }
 
 //hamburguer menu
@@ -17,4 +21,7 @@ function myFunction() {
 function burgermenu() {
     document.getElementById('header').classList.toggle("abre-menu");
     document.getElementById('img-header').src = "assets/media/global/x.svg";
+    if(document.getElementById('header').clientHeight < 100){
+        document.getElementById('img-header').src = "assets/media/global/list.svg";
+    }
 }
