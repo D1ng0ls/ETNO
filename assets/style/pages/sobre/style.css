@@ -72,7 +72,7 @@ h1::before {
 /*missao*/
 
 .missao-about {
-    margin: 70px auto;
+    margin: 110px auto;
     background-color: var(--color-yellow);
     border-radius: 8px;
 }
@@ -186,18 +186,20 @@ h1::before {
 }
 
 .fotos-representantes {
+    width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 70px;
+    gap: 80px;
 }
 
 .repre-dev {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 128px;
+    gap: 15px;
+    width: 160px;
     
 }
 
