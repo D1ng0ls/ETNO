@@ -11,14 +11,55 @@ header .menu {
     header nav {
         display: none;
     }
+
     header .menu {
         display: block;
         margin: auto 20px;
         cursor: pointer;
     }
+
     header .menu img {
-        width: 32px;
-        height: 32px;
+        width: 48px;
+        height: 48px;
+    }
+
+    .abre-menu {
+        height: 100vh;
+        width: 100%;
+        animation: aparece 0.3s;
+        backdrop-filter: blur(15px);
+        top: 0;
+        margin: 0;
+        transition: backdrop-filter 0.5s;
+    }
+
+    .abre-menu .header-logo {
+        display: none;
+    }
+
+    .abre-menu nav {
+        display: block;
+        height: 50vh;
+        margin: auto;
+        margin-left: 40px;
+    }
+
+    .abre-menu nav ul {
+        height: 100%;
+        flex-direction: column;
+        margin: auto;
+        justify-content: space-between;
+    }
+
+    .abre-menu nav ul>li {
+        font-size: 2rem;
+    }
+
+    .abre-menu .menu img {
+        transform: rotateZ(90deg);
+        transition: all 0.9s;
+        width: 64px;
+        height: 64px;
     }
 }
 
