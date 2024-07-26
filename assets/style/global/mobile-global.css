@@ -64,5 +64,19 @@ header .menu {
 }
 
 @media only screen and (max-width: 425px) {
-    
+    .foot-img {
+        padding-top: 30px;
+    }
+
+    .foot-text {
+        flex-direction: column;
+        gap: 30px;
+        padding-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .icon svg, .icon {
+        width: 20px;
+        height: 20px;
+    }
 }

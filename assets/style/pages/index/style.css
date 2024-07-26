@@ -351,18 +351,21 @@ section {
 }
 
 .post {
-    width: 90%;
-    border-radius: 20px;
-    flex: 1 1 1;
+    width: 30%;
+    border-radius: 22px;
     cursor: pointer;
+    border: 2px solid var(--color-brown);
 }
 
-.post:hover .text-post  {
+.post:hover {
     border-color: var(--color-lightorange);
 }
 
 .img-post, .img-post img {
     width: 100%;
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 }
 
 .img-post img {
@@ -373,11 +376,6 @@ section {
 
 .text-post {
     padding: 30px 20px 40px;
-    border-radius: 20px;
-    border: 2px solid var(--color-brown);
-    border-top: none;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
     flex: 1 1 0px;
 }
 
