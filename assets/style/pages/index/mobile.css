@@ -68,6 +68,12 @@
 }
 
 @media only screen and (max-width: 425px) {
+    /* home */
+    .home h1 {
+        line-height: 3rem;
+        font-size: 2rem;
+    }
+    
     /* noticias */
     .noticia-recente {
         height: 300px;
