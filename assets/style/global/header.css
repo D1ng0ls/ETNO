@@ -1,13 +1,22 @@
 header {
     width: 100%;
     position: fixed;
-    padding: 20px 15px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     transition: box-shadow 0.1s ease-in;
     z-index: 1;
+    padding: 20px;
+}   
+
+.menu img {
+    margin-right: 20px;
 }
+
+header ul {
+    margin-right: 35px;
+}
+
 
 .fixed {
     box-shadow: 0px 0px 10px #2b2b2b;

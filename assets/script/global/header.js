@@ -1,27 +1,30 @@
-//scroll shadow
-
 window.onscroll = function() {
-    myFunction()
+    myFunction();
 };
 
 function myFunction() {
+    const header = document.getElementById("header");
     if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
-        document.getElementById("header").className = "fixed";
+        header.className = "fixed";
     } else {
-        document.getElementById("header").className = "";
+        header.className = "";
     }
 
-    if(document.getElementById('header').clientHeight < 100){
+    if (header.clientHeight > 0) {
         document.getElementById('img-header').src = "assets/media/global/list.svg";
     }
 }
 
-//hamburguer menu
-
+// Hamburger menu
 function burgermenu() {
-    document.getElementById('header').classList.toggle("abre-menu");
-    document.getElementById('img-header').src = "assets/media/global/x.svg";
-    if(document.getElementById('header').clientHeight < 100){
-        document.getElementById('img-header').src = "assets/media/global/list.svg";
+    const header = document.getElementById('header');
+    const imgHeader = document.getElementById('img-header');
+
+    header.classList.toggle("abre-menu");
+
+    if (imgHeader.getAttribute('src') === "assets/media/global/list.svg") {
+        imgHeader.src = "assets/media/global/x.svg";
+    } else {
+        imgHeader.src = "assets/media/global/list.svg";
     }
 }
