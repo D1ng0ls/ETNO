@@ -100,13 +100,13 @@ section {
 
 .home h1, .home h3 {
     text-align: center;
-    color: #fff;
+    color: var(--color-white);
     margin: 10px;
     letter-spacing: 7px;
 }
 
 .home svg {
-    color: #FFF;
+    color: var(--color-white);
     position: absolute;
     width: 32px;
     height: 32px;

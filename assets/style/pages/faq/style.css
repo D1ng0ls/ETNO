@@ -21,12 +21,16 @@ section {
 
 h1, h3 {
     font-weight: 500;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 h1, h2, h3, p {
     color: var(--color-brown);
-    line-height: 1.8rem;
+    line-height: 2rem;
+}
+
+p {
+    margin-right: 35px;
 }
 
 /*faq*/
@@ -43,7 +47,7 @@ h1, h2, h3, p {
     border-radius: 10px;
     border: 2px solid var(--color-brown);
     border-left-width: 30px;
-    padding-left: 20px;
+    padding-left: 25px;
     
 }
 
@@ -58,7 +62,7 @@ h1, h2, h3, p {
 
 .title-quest svg {
     color: var(--color-brown);
-    margin-right: 40px;
+    margin-right: 35px;
     width: var(--font-size-h2);
     height: var(--font-size-h2);
     transition: all 0.2s ease;

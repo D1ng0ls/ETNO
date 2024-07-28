@@ -2,7 +2,7 @@ footer {
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin: 50px 0 0 0;
+    margin: 150px 0 0 0;
     background-color: var(--color-yellow);
 }
 
@@ -18,21 +18,21 @@ footer {
 
 .foot-text {
     width: 95%;
-    border-top: 2px solid var(--color-brown);
+    border-top: 1.5px solid var(--color-brown);
     padding-bottom: 50px;
     margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-top: 30px;
-    margin-top: 50px;
+    padding-top: 25px;
+    margin-top: 45px;
 }
 
 .text-social svg {
-    color: #fff !important;
-    height: 28px;
-    width: 28px;
+    color: #FFFAFA ;
+    height: 24px;
+    width: 24px;
 }
 
 .icon {
@@ -40,7 +40,11 @@ footer {
     background-color: var(--color-brown);
     border-radius: 50%;
     padding: 12px;
-    height: 28px;
-    width: 28px;
+    height: 24px;
+    width: 24px;
     cursor: pointer;
+}
+
+.instagram-icon {
+    margin-right: 15px;
 }

@@ -76,7 +76,7 @@ h1 {
 .search-bar button {
     padding: 10px 20px;
     background-color: #7ac144;
-    color: #fff;
+    color: #FFFAFA;
     border: none;
     border-radius: 15px;
     cursor: pointer;
@@ -134,7 +134,7 @@ h1 {
 
 .news-content a {
     background-color: #7ac144;
-    color: #fff;
+    color: #FFFAFA;
     padding: 8px 15px;
     text-decoration: none;
 }
@@ -154,7 +154,7 @@ h1 {
 
 .pagination a.active {
     background-color: #7ac144;
-    color: #fff;
+    color: #FFFAFA;
 }
 
 footer {
