@@ -24,7 +24,7 @@ header ul {
 /*default*/
 
 section {
-    width: 80%;
+    width: 85%;
     margin: 0 auto 150px;
 }
 
@@ -67,7 +67,7 @@ section {
     cursor: pointer;
     background: transparent;
     font-size: 1.25rem;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-weight: 600;
     transition: all 0.3s;
 }
@@ -136,7 +136,7 @@ section {
 }
 
 .noticias-container {
-    margin: 100px auto;
+    margin: 80px auto;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
@@ -253,7 +253,7 @@ section {
 }
 
 .eventos-container {
-    margin: 100px auto;
+    margin: 80px auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -289,15 +289,20 @@ section {
 .data-evento {
     background-color: var(--color-brown);
     color: var(--color-white);
-    font-weight: 600;
+    font-weight: 700;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.8rem;
     border-radius: 10px 0 0 10px;
     padding: 40px 20px;
     display: flex;
     align-items: center;
     min-width: 100px;
     justify-content: center;
+    line-height: 2rem;
+}
+
+.data-evento p span {
+    font-size: 2.5rem;
 }
 
 .texto-evento {
@@ -343,11 +348,10 @@ section {
 }
 
 .posts-conteudo {
-    margin: 100px auto;
+    margin: 80px auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 3%;
 }
 
 .post {
@@ -375,22 +379,23 @@ section {
 }
 
 .text-post {
-    padding: 30px 20px 40px;
+    padding: 30px 20px 30px;
     flex: 1 1 0px;
 }
 
 .text-post p {
     color: var(--color-brown);
     font-weight: 600;
-    letter-spacing: 3px;
-    line-height: 1.5rem;
-    font-size: 1.2rem;
+    letter-spacing: 2px;
+    line-height: 2rem;
+    font-size: 1rem;
 }
 
 .info-text-post {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 40px;
     font-size: 0.9rem;
     color: var(--color-brown);
@@ -399,8 +404,13 @@ section {
 
 .info-text-post span {
     background-color: var(--color-lightorange);
-    padding: 5px 7px;
+    padding: 8px;
     border-radius: 4px;
+    letter-spacing: 0.5px;
+}
+
+.info-text-post b {
+    letter-spacing: 1px;
 }
 
 .bt-pos {
@@ -422,7 +432,7 @@ section {
 }
 
 .sobre-conteudo {
-    margin: 100px auto;
+    margin: 80px auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -484,7 +494,7 @@ section {
 }
 
 .FAQ-conteudo {
-    margin: 100px auto;
+    margin: 80px auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -500,6 +510,7 @@ section {
     letter-spacing: 3px;
     font-size: 2rem;
     text-align: center;
+    line-height: 3rem;
 }
 
 .FAQ-botao {

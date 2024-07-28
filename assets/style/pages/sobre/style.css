@@ -75,12 +75,14 @@ h1::before {
     margin: 110px auto;
     background-color: var(--color-yellow);
     border-radius: 8px;
+    color: var(--color-brown);
 }
 
 .missao-about b {
     padding: 30px 20px 10px;
     font-size: 1.5rem;
-    line-height: 2rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.5px;
     display: block;
     text-align: center;
 }
@@ -88,7 +90,7 @@ h1::before {
 .missao-about i {
     display: block;
     text-align: right;
-    margin: 20px 20px 0;
+    margin: 15px 20px 0;
     font-size: 1.25rem;
     padding: 10px 20px 30px;
 }
@@ -108,7 +110,8 @@ h1::before {
 .itens-compromissos ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: auto;
+    column-gap: 45px;
+    align-items: center;
 }
 
 .itens-compromissos ul li {
@@ -180,7 +183,7 @@ h1::before {
 
 .container-representantes h3{
     text-align: center;
-    margin: 100px 0;
+    margin: 50px 0 100px 0;
     font-size: 1.5rem;
 
 }
