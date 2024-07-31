@@ -1,47 +1,13 @@
 @import url(../../global/default.css);
 
 header {
-    background-color: rgb(156,191,27);
-    padding: 10px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-header .logo {
-    margin-left: 20px;
-}
-
-header .logo img {
-    height: 55px;
-}
-
-
-header nav {
-    display: flex;
-    justify-content: flex-end; /* Alinha o conteúdo (ul) à direita */
-}
-
-header nav ul {
-    list-style: none;
-    display: flex; /* Certifique-se de que `flex` está corretamente aplicado aqui */
-    padding: 0;
-    margin: 0;
-}
-
-header nav ul li {
-    margin: 0 35px; /* Espaçamento entre os itens do menu */
-}
-
-header nav ul li a {
-    color: #0f0e0e;
-    text-decoration: none;
-    font-size: 16px;
+    background-color: var(--color-lightgreen);
 }
 
 main {
     text-align: center;
     padding: 20px;
+    padding-top: 100px;
 }
 
 h1 {
