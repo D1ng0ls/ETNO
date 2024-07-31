@@ -1,7 +1,7 @@
 @import url(../../global/default.css);
 
 header {
-    background-color: #7ac144;
+    background-color: rgb(156,191,27);
     padding: 10px 0;
     display: flex;
     align-items: center;
@@ -13,24 +13,24 @@ header .logo {
 }
 
 header .logo img {
-    height: 40px;
+    height: 55px;
 }
 
+
 header nav {
-    flex: 1;
-    text-align: right;
+    display: flex;
+    justify-content: flex-end; /* Alinha o conteúdo (ul) à direita */
 }
 
 header nav ul {
     list-style: none;
-    display: flex;
-    justify-content: flex-end; 
+    display: flex; /* Certifique-se de que `flex` está corretamente aplicado aqui */
     padding: 0;
     margin: 0;
 }
 
 header nav ul li {
-    margin: 0 15px;
+    margin: 0 35px; /* Espaçamento entre os itens do menu */
 }
 
 header nav ul li a {
@@ -39,19 +39,16 @@ header nav ul li a {
     font-size: 16px;
 }
 
-header nav ul li.right {
-    margin-left: right;
-    text-align: right;
-}
-
 main {
     text-align: center;
     padding: 20px;
 }
 
 h1 {
-    color: #333;
+    color: rgb(59,12,4);
     margin-bottom: 20px;
+    padding: 50px;
+    margin-top: 50px;
 }
 
 .search-container {
@@ -78,7 +75,7 @@ h1 {
     background-color: #7ac144;
     color: #FFFAFA;
     border: none;
-    border-radius: 15px;
+    border-radius: 30px;
     cursor: pointer;
     margin-left: 10px;
 }
@@ -86,6 +83,7 @@ h1 {
 .filter {
     display: flex;
     align-items: center;
+    
 }
 
 .filter label {
@@ -93,15 +91,30 @@ h1 {
 }
 
 .filter select {
-    padding: 10px;
+    padding: 20px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 15px;
+}
+
+.filter button {
+    padding: 10px 20px; 
+    margin: 10 15px; 
+    border: 1px solid #ccc; 
+    background-color: #f4f4f4; 
+    cursor: pointer; 
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+.filter button:hover {
+    background-color:  #7ac144;
 }
 
 .news-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .news-item {
@@ -110,8 +123,9 @@ h1 {
     border-radius: 5px;
     display: flex;
     width: 60%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     overflow: hidden;
+    
 }
 
 .news-item img {
@@ -130,6 +144,7 @@ h1 {
 
 .news-content p {
     margin: 0 0 10px;
+    text-align:left;
 }
 
 .news-content a {
@@ -147,9 +162,8 @@ h1 {
     color: #333;
     padding: 10px 20px;
     text-decoration: none;
-    border: 1px solid #ccc;
     margin: 0 5px;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
 .pagination a.active {
@@ -157,21 +171,4 @@ h1 {
     color: #FFFAFA;
 }
 
-footer {
-    background-color: #ffc107;
-    padding: 10px 0;
-    text-align: center;
-    color: #333;
-}
 
-footer p {
-    margin: 0;
-}
-
-.social-icons {
-    margin-top: 10px;
-}
-
-.social-icons a {
-    margin: 0 5px;
-}
