@@ -27,6 +27,7 @@ footer {
     align-items: center;
     padding-top: 25px;
     margin-top: 45px;
+    color: var(--color-brown);
 }
 
 .text-social svg {
