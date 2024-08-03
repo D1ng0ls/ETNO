@@ -5,3 +5,11 @@
 header {
     background-color: var(--color-yellow);
 }
+
+.logo-img-brown {
+    display: block;
+}
+
+.logo-img-white {
+    display: none;
+}

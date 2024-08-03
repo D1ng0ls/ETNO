@@ -17,7 +17,6 @@ header ul {
     margin-right: 35px;
 }
 
-
 .fixed {
     box-shadow: 0px 0px 10px #2b2b2b;
     transition: box-shadow 0.2s ease-in;
@@ -26,8 +25,14 @@ header ul {
 .header-logo img {
     width: 80px;
     height: 80px;
-    background-color: var(--color-white);
-    border-radius: 50%;
+}
+
+.logo-img-brown {
+    display: none;
+}
+
+.logo-img-white {
+    display: block;
 }
 
 nav {

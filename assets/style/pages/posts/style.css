@@ -7,6 +7,14 @@ header {
     background-color: var(--color-lightorange);
 }
 
+.logo-img-brown {
+    display: block;
+}
+
+.logo-img-white {
+    display: none;
+}
+
 /* main */
 main.main-content {
     padding-top: 122px;

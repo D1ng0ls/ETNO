@@ -16,6 +16,13 @@ header .logo img {
     height: 55px;
 }
 
+.logo-img-brown {
+    display: block;
+}
+
+.logo-img-white {
+    display: none;
+}
 
 header nav {
     display: flex;
