@@ -131,20 +131,21 @@ h1 {
 .news-item {
     background-color: #fff;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 10px;
     display: flex;
-    width: 60%;
+    width: 70%;
     margin-bottom: 10px;
     overflow: hidden;
-    
 }
 
 .news-item img {
-    width: 25%; 
+    width: 220px; 
     height: auto;
     object-fit: cover; 
     float: left; 
-    margin-left: 100px; 
+    margin-left: 350px; 
+    border-radius: 10px;
+
 }
 
 .news-content {
@@ -157,6 +158,7 @@ h1 {
     margin: 0 0 10px;
     text-align:left;
     font-weight: bold;
+    font-size: 115%;
 }
 
 .news-content a {
@@ -194,4 +196,10 @@ h1 {
     color: #FFFAFA;
 }
 
+.line-separator  { 
+    border-top: 1.5px solid #9e9b9b;
+    height: 1.5px;
+    width: 80%; 
+    margin: 0;
 
+}
