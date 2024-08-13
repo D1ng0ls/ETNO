@@ -4,39 +4,113 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/media/global/logo.png" type="image/x-icon">
-    <title>muda o titulo preguiçoso</title>
+    <title>Eventos</title>
     <link rel="stylesheet" href="assets/style/pages/eventos/style.css">
     <link rel="stylesheet" href="assets/style/pages/index/mobile.css">
 </head>
 <body>
     <header id="header"></header>
 
-    <div class="highlight-event">
-        <img src="evento-destaque.png" alt="Evento Destaque">
-        <div class="highlight-details">
-            <h1>Festival afro brasileiro e africano</h1>
-            <p>19 de novembro, às 9 horas</p>
-            <button>Saiba mais</button>
-        </div>
-    </div>
-    <div class="container">
-        <div class="calendar">
-            <img src="calendar.png" alt="Calendário de Abril 2024">
-        </div>
+    <main>
+        <section class="calendar-section">
+            <div class="calendar">
+                <header>
+                    <button class="prev">&lt;</button>
+                    <h2>Agosto de 2024</h2>
+                    <button class="next">&gt;</button>
+                </header>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Dom</th>
+                            <th>Seg</th>
+                            <th>Ter</th>
+                            <th>Qua</th>
+                            <th>Qui</th>
+                            <th>Sex</th>
+                            <th>Sáb</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><span class="event">3</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="event">4</span></td>
+                            <td><span class="event">5</span></td>
+                            <td><span class="event">6</span></td>
+                            <td><span class="event">7</span></td>
+                            <td><span class="event">8</span></td>
+                            <td><span class="event">9</span></td>
+                            <td><span class="event">10</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="event">11</span></td>
+                            <td><span class="event">12</span></td>
+                            <td><span class="event">13</span></td>
+                            <td><span class="event">14</span></td>
+                            <td><span class="event">15</span></td>
+                            <td><span class="event">16</span></td>
+                            <td><span class="event">17</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="event">18</span></td>
+                            <td><span class="event">19</span></td>
+                            <td><span class="event">20</span></td>
+                            <td><span class="event">21</span></td>
+                            <td><span class="event">22</span></td>
+                            <td><span class="event">23</span></td>
+                            <td><span class="event">24</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="event">25</span></td>
+                            <td><span class="event">26</span></td>
+                            <td><span class="event">27</span></td>
+                            <td><span class="event">28</span></td>
+                            <td><span class="event">29</span></td>
+                            <td><span class="event">30</span></td>
+                            <td><span class="event">31</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
 
-        <h2>Próximos eventos</h2>
-        <div class="events">
-            <img src="assets/media/pages/eventos/evento-full-1.png" alt="Evento 1">
-            <img src="assets/media/pages/eventos/evento-full-2.png" alt="Evento 2">
-            <img src="assets/media/pages/eventos/evento-full-1.png" alt="Evento 1">
-            <img src="assets/media/pages/eventos/evento-full-2.png" alt="Evento 2">
-            <img src="assets/media/pages/eventos/evento-full-1.png" alt="Evento 1">
-            <img src="assets/media/pages/eventos/evento-full-2.png" alt="Evento 2">   
-        </div>
-    </div>
+        <section class="events-section">
+            <h2>Próximos eventos</h2>
+            <div class="line-separator"></div>
+            <div class="event-cards">
+                <div class="event-card">
+                    <img src="assets/media/pages/eventos/evento-full-1.png" alt="Evento 1">
+                </div>
+                <div class="event-card">
+                    <img src="assets/media/pages/eventos/evento-full-2.png" alt="Evento 2">
+                </div>
+                <div class="event-card">
+                    <img src="assets/media/pages/eventos/evento-full-1.png" alt="Evento 3">
+                </div>
+                <div class="event-card">
+                    <img src="assets/media/pages/eventos/evento-full-2.png" alt="Evento 4">
+                </div>
+                <div class="event-card">
+                    <img src="assets/media/pages/eventos/evento-full-1.png" alt="Evento 5">
+                </div>
+                <div class="event-card">
+                    <img src="assets/media/pages/eventos/evento-full-2.png" alt="Evento 6">
+                </div>
+            </div>
+        </section>
+    </main>
 
-    <footer class="footer"></footer>
+    <footer id="footer"></footer>
     <script src="assets/script/global/includes.js"></script>
     <script src="assets/script/global/header.js"></script>
+    <script src="assets/script/pages/faq/script.js"></script>>
 </body>
 </html>

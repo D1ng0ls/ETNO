@@ -13,3 +13,68 @@ header {
 .logo-img-white {
     display: none;
 }
+.calendar-section {
+    background-color: #FFF;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+.calendar header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.calendar header h2 {
+    margin: 0;
+}
+
+.calendar table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.calendar th,
+.calendar td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.calendar .event {
+    background-color: #FFC000;
+    padding: 5px 10px;
+    border-radius: 50%;
+}
+
+.events-section {
+    padding: 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.events-section h2 {
+    margin-bottom: 20px;
+}
+
+.event-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.event-card img {
+    width: 80%;
+    border-radius: 5px;
+}
+
+.line-separator  { 
+    border-top: 3px solid #FFC000;
+    height: 2px;
+    width: 100%; 
+    margin: 15px;
+
+}
