@@ -1,0 +1,58 @@
+@media only screen and (max-width: 1440px) {
+    .conteudo-lab {
+        margin-top: 100px;
+    }
+    .img-lab img {
+        margin-left: 20%;
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .container-about {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .text-about, .img-about {
+        width: 90%;
+    }
+    .missao-about b, .missao-about i{
+        font-size: 1.25rem;
+    }
+    .conteudo-lab {
+        margin: 20px 0 100px;
+    }
+    .img-lab img {
+        display: none;
+    }
+    .text-lab {
+        padding: 30px;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    h1 {
+        padding-bottom: 30px;
+        font-size: 1.75rem;
+    }
+    h1::before {
+        transform: translateY(35px);
+    }
+    .missao-about b, .missao-about i{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    .itens-compromissos ul {
+        grid-template-columns: 1fr;
+    }
+    .itens-compromissos ul>li {
+        margin: 20px 0;
+    }
+    .container-representantes h2 {
+        padding-bottom: 0;
+    }
+    .area-representantes h3 {
+        margin: 0;
+        margin: 70px 0 30px;
+    }
+}
