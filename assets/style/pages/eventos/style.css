@@ -6,6 +6,38 @@ header {
     background-color: var(--color-yellow);
 }
 
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.hoje {
+    background-color: var(--color-yellow);
+    padding: 15px 25px;
+    border-radius: 5px;
+}
+
+.arrows {
+    display: flex;
+    gap: 14px;
+}
+
+.arrows svg {
+    background-color: var(--color-yellow);
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
 .logo-img-brown {
     display: block;
 }
@@ -15,19 +47,8 @@ header {
 }
 .calendar-section {
     background-color: #FFF;
-    color: #333;
-    padding: 20px;
+    color: var(--color-brown);
     text-align: center;
-}
-
-.calendar header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.calendar header h2 {
-    margin: 0;
 }
 
 .calendar table {
@@ -39,12 +60,12 @@ header {
 .calendar th,
 .calendar td {
     border: 1px solid #ddd;
-    padding: 10px;
+    padding: 50px;
     text-align: center;
 }
 
 .calendar .event {
-    background-color: #FFC000;
+    background-color: var(--color-yellow);
     padding: 5px 10px;
     border-radius: 50%;
 }
@@ -52,29 +73,28 @@ header {
 .events-section {
     padding: 20px;
     text-align: center;
-    background-color: #f4f4f4;
-    color: #333;
+    color: var(--color-brown);
 }
 
 .events-section h2 {
-    margin-bottom: 20px;
+    margin-top: 100px;
 }
 
 .event-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    padding: 50px;
 }
 
 .event-card img {
-    width: 80%;
+    width: 100%;
     border-radius: 5px;
 }
 
 .line-separator  { 
-    border-top: 3px solid #FFC000;
+    border-top: 3px solid var(--color-yellow);
     height: 2px;
     width: 100%; 
-    margin: 15px;
-
+    margin-top: 15px;
 }
