@@ -109,6 +109,10 @@ h1 {
     gap: 50px;
 }
 
+.news-container a {
+    width: 100%;
+}
+
 .news-item {
     border: 1px solid var(--color-brown);
     border-radius: 10px;
