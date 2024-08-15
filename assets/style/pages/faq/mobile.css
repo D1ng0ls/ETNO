@@ -1,0 +1,32 @@
+@media only screen and (max-width: 1023px) {
+    h3 {
+        font-size: 1.25rem;
+    }
+    h1 {
+        line-height: 3rem;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    h3 {
+        width: 200px;
+        font-size: 1rem;
+        line-height: 1.25rem;
+    }
+    p {
+        line-height: 1.5rem;
+    }
+    .title-quest svg {
+        margin: auto;
+    }
+    .faq-question {
+        padding-left: 15px;
+    }
+    .text-quest p {
+        margin-right: 15px;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+
+}
