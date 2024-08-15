@@ -1,14 +1,9 @@
-const button = document.querySelectorAll('.buttonCards')
-const popup = document.querySelector('.cardOpen')
+function abreCard(idTipo, idPosi) {
+  const card = document.getElementById("card" + idTipo + idPosi);
+  const corpo = document.getElementById("corpo");
 
-button.addEventListener('click', () => {
-  popup.style.display = 'block';
-})
+  card.classList.toggle("cardAberto");
+  corpo.classList.toggle("hidden");
 
-popup.addEventListener('click', event => {
-  const clickedElement = event.target.classList[0]
-
-  if (clickedElement == 'cardClose') {
-    popup.style.display = 'none';
-  }
-})
+  console.log(card)
+}

@@ -15,6 +15,7 @@ header {
     display: none;
 }
 
+
 /* main */
 main.main-content {
     padding-top: 122px;
@@ -126,6 +127,10 @@ hr {
     width: 100%;
 }
 
+.carde {
+    display: flex;
+}
+
 .cards {
     display: inline;
     width: 380px;
@@ -133,7 +138,43 @@ hr {
     border-radius: 16px;
     border: black 1px solid;
     padding: 10px;
-    color: var(--color-brown)
+    color: var(--color-brown);
+}
+
+.cardAberto {
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    backdrop-filter: blur(100px);
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    transition: all 0.3s;
+}
+
+.cardAberto::after {
+    content: "X";
+    font-size: 3rem;
+    color: var(--color-brown);
+    cursor: pointer;
+    margin:auto;
+    margin-top: 70px;
+}
+
+.hidden {
+    overflow: hidden;
+}
+
+.cardAberto .cards {
+    margin: auto;
+    margin-bottom: 0;
+    background-color: var(--color-white);
+
 }
 
 .card-img img {
