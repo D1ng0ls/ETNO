@@ -59,7 +59,7 @@ div.social-media-buttons {
 }
 
 div.facebook-button {
-    background-color: var(--color-yellow);
+    background-color: var(--color-lightorange);
     color: var(--color-brown);
     cursor: pointer;
 }
@@ -113,7 +113,7 @@ section.social-media-posts p.social-media-tittle-post {
 hr {
     width: 90%;
     height: 3px;
-    background-color: var(--color-yellow);
+    background-color: var(--color-lightorange);
     outline: none;
     border: none;
     margin-bottom: 3%;
@@ -135,7 +135,7 @@ hr {
     display: inline;
     width: 380px;
     height: 470px;
-    border-radius: 16px;
+    border-radius: 24px;
     border: black 1px solid;
     padding: 10px;
     color: var(--color-brown);
@@ -146,7 +146,7 @@ hr {
     align-items: center;
     justify-content: center;
     z-index: 1;
-    backdrop-filter: blur(100px);
+    backdrop-filter: brightness(0.01) ;
     height: 100vh;
     width: 100%;
     top: 0;
@@ -154,16 +154,25 @@ hr {
     display: flex;
     flex-direction: column;
     margin-bottom: 0;
-    transition: all 0.3s;
+    transition: all 0.6s;
 }
 
-.cardAberto::after {
-    content: "X";
-    font-size: 3rem;
-    color: var(--color-brown);
+.fecha-card {
+    display: none;
+}
+
+.aparece {
+    display: block;
+    color: var(--color-white);
     cursor: pointer;
     margin:auto;
-    margin-top: 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.aparece svg {
+    width: 32px;
+    height: 32px;
 }
 
 .hidden {
@@ -209,38 +218,31 @@ hr {
 
 div.filtro-qtde-pags {
     width: 100%;
-    height: 100px;
     margin-top: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-div ul.list {
-    width: 50px;
-    display: flex;
-    align-items: center;
-    gap: 40px;
+.list {
+    margin: 0px 0 0;
+}
+
+.list a {
     color: var(--color-brown);
+    padding: 10px 19px;
+    text-decoration: none;
+    margin: 0;
+    border-radius: 20px;
 }
 
-h5.tittle {
+.list img {
+    vertical-align: middle;
+}
+
+.list a.active {
     background-color: var(--color-lightorange);
-    width: 20px;
-    height: 20px;
-    font-weight: bold;
-    border-radius: 100px;
-    padding: 10px;
-}
-
-h5.tittle p {
-    position: relative;
-    top: 2px;
-    left: 7px;
-}
-
-img.arrows {
-    width: 13px;
+    color: var(--color-white);
 }
 
 .buttonCards {
