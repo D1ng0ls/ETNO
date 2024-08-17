@@ -52,7 +52,7 @@ h1, h2, h3, p {
     border: 2px solid var(--color-brown);
     border-left-width: 30px;
     padding-left: 25px;
-    
+    width: 100%;
 }
 
 .title-quest {
