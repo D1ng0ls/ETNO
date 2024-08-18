@@ -58,13 +58,13 @@ div.social-media-buttons {
     width: 22px;
 }
 
-div.facebook-button {
+.facebook-button {
     background-color: var(--color-lightorange);
     color: var(--color-brown);
     cursor: pointer;
 }
 
-div.instagram-button {
+.instagram-button {
     background-color: var(--color-brown);
     color: var(--color-white);
     font-weight: 400;
@@ -187,6 +187,8 @@ hr {
 
 .card-img img {
     width: 380px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
 }
 
 .card-desc {

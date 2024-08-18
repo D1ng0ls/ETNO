@@ -36,8 +36,6 @@ main {
     cursor: pointer;
 }
 
-
-
 .logo-img-brown {
     display: block;
 }
@@ -45,6 +43,7 @@ main {
 .logo-img-white {
     display: none;
 }
+
 .calendar-section {
     background-color: #FFF;
     color: var(--color-brown);
@@ -89,7 +88,16 @@ main {
 
 .event-card img {
     width: 100%;
-    border-radius: 5px;
+    height: 100%;
+}
+
+.event-card-padding {
+    padding-bottom: 10px;
+}
+
+.event-card-padding img{
+    padding: 5px 0;
+    border-radius: 15px;
 }
 
 .line-separator  { 
@@ -97,4 +105,39 @@ main {
     height: 2px;
     width: 100%; 
     margin-top: 15px;
+} 
+
+@media (max-width: 950px) {
+    .calendar th,
+    .calendar td {
+        padding: 30px;
+    }
+
+    .event-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 700px) {
+    .arrows {
+        gap: 0px;
+    }
+
+    .arrows svg {
+        width: 10px;
+        padding: 5px 8px;
+    }
+
+    .calendar {
+        width: auto;
+    }
+
+    .calendar th,
+    .calendar td {
+        padding: 18px 7px;
+    }
+
+    .event-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
