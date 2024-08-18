@@ -17,9 +17,6 @@ header {
 
 
 /* main */
-main.main-content {
-    padding-top: 122px;
-}
 
 section.social-media-content {
     width: 100%;
@@ -122,7 +119,7 @@ hr {
 .social-media-cards {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 15px;
     flex-wrap: wrap;
     width: 100%;
 }
@@ -133,7 +130,7 @@ hr {
 
 .cards {
     display: inline;
-    width: 380px;
+    width: 350px;
     height: 470px;
     border-radius: 24px;
     border: black 1px solid;
@@ -186,7 +183,7 @@ hr {
 }
 
 .card-img img {
-    width: 380px;
+    width: 350px;
     border-top-left-radius: 24px;
     border-top-right-radius: 24px;
 }
@@ -234,7 +231,7 @@ div.filtro-qtde-pags {
     padding: 10px 19px;
     text-decoration: none;
     margin: 0;
-    border-radius: 20px;
+    border-radius: 50%;
 }
 
 .list img {
@@ -274,4 +271,11 @@ div.filtro-qtde-pags {
     cursor: pointer;
     position: absolute;
     top: -100px;
+}
+
+@media (max-width: 400px) {
+    .list a {
+        padding: 5px 14px;
+        border-radius: 50%;
+    }
 }
