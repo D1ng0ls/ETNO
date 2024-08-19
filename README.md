@@ -14,5 +14,5 @@ Nosso principal objetivo é elevar a consciência sobre questões raciais e prom
 - [@João Pedro Vieira Luz Piva](https://www.github.com/idosonaweb)
 - [@Maria Eduarda](https://www.github.com/Duda205)
 
-# Link Direto
+### Link Direto
 [Comissão ETNO - Birigui](https://d1ng0ls.github.io/ETNO/)
