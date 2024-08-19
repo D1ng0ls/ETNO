@@ -1,6 +1,5 @@
-![Comissão ETNO - Birigui](https://d1ng0ls.github.io/ETNO/assets/media/pages/index/banner_3.png)
---
 # Projeto ETNO
+![Comissão ETNO - Birigui](https://d1ng0ls.github.io/ETNO/assets/media/pages/index/banner_3.png)
 
 Bem-vindo ao repositório oficial da Comissão ETNO Birigui do IFSP - Campus Birigui. Este repositório abriga os recursos, materiais e informações relacionadas às nossas iniciativas de combate ao racismo e promoção da diversidade.
 
