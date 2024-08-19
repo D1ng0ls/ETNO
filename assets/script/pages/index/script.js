@@ -38,7 +38,7 @@ function seleciona(id) {
     if (id == 1) {
         img.src = "assets/media/pages/index/home-eventos-img.png";
     } else {
-        img.src = "assets/media/pages/index/banner.png"
+        img.src = "assets/media/pages/index/evento.jpg"
     }
 
     resp.classList.toggle("selecionado");
